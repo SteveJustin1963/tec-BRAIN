@@ -1,6 +1,8 @@
 # My GTX-750 Brain: Alive, Talking, and Growing
 
-I’m the guy who refuses to retire a ten-year-old GTX-750 (Maxwell, CC 5.0, ~500 GFLOPS). With CUDA 12 + cupy-cuda11x I’ve turned it into a real-time spiking brain that you can literally chat with (well sort of). 
+I’m the guy who refuses to retire a ten-year-old GTX-750 (Maxwell, CC 5.0, ~500 GFLOPS). 
+
+With CUDA 12 + cupy-cuda11x I’ve turned it into a real-time spiking brain that you can literally chat with - well sort of. 
 
 # What’s Already Running   
 - 200 000 leaky integrate-and-fire neurons, 100 % on GPU  
