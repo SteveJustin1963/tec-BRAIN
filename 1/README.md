@@ -62,11 +62,16 @@ The system is modeled as minimizing a global energy function, analogous to a phy
   $\[
   E = \sum_{l=1}^{L} \sum_{i} (\epsilon_i^l)^2 = \sum_{l=1}^{L} \sum_{i} (x_i^l - \hat{y}_i^l)^2
   \]$
+  
   Where:
- $\(\epsilon_i^l = x_i^l - \hat{y}_i^l\)$
+math\
+(\epsilon_i^l = x_i^l - \hat{y}_i^l\)
+
 is the prediction error for neuron i at layer l.
 
-  $\(\hat{y}_i^l = \sum_j w_{ij}^{l+1 \to l} x_j^{l+1}\)$
+ math\
+ (\hat{y}_i^l = \sum_j w_{ij}^{l+1 \to l} x_j^{l+1}\)
+ \
 
   is the top-down prediction from the layer above (for l < L). For the bottom layer, predictions come from sensory input; for the top, there might be no prediction or a prior.
 
