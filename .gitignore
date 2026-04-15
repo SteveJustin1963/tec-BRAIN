@@ -1,0 +1,15 @@
+# Compiled binaries
+brain/brain_core/brain_core
+
+# Logs
+brain/brain_core/brain_core_log.txt
+
+# Binary data / state files
+brain/brain_core/*.npz
+brain/brain_core/*.bin
+brain/brain_core/resume
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
